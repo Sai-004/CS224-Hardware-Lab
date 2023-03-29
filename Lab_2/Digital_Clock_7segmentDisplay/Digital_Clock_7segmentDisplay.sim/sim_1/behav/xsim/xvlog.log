@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.srcs/sources_1/new/binary_to_bcd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module binary_to_bcd
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.srcs/sources_1/new/digital_clock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

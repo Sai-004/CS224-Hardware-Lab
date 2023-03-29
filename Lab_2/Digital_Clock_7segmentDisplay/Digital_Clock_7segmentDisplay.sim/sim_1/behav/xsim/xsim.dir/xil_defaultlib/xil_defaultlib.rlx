@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.srcs/sim_1/new/testbench.v,1675110832,verilog,,,,testbench,,,,,,,,
+D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.srcs/sources_1/new/binary_to_bcd.v,1675147149,verilog,,D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.srcs/sources_1/new/digital_clock.v,,binary_to_bcd,,,,,,,,
+D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.srcs/sources_1/new/digital_clock.v,1675147515,verilog,,D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.srcs/sim_1/new/testbench.v,,digital_clock,,,,,,,,
+D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.srcs/sources_1/new/divider_7seg_hours.v,1675110500,verilog,,D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.srcs/sources_1/new/divider_7segment.v,,divider_7seg_hours,,,,,,,,
+D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.srcs/sources_1/new/divider_7segment.v,1675110462,verilog,,D:/HardwareLab/Digital_Clock_7segmentDisplay/Digital_Clock_7segmentDisplay.srcs/sim_1/new/testbench.v,,divider_7segment,,,,,,,,
