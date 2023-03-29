@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Thu Mar 30 01:50:10 2023
+# Process ID: 8224
+# Current directory: D:/HardwareLab/Reg_Instruction_Processor/Reg_Instruction_Processor.runs/impl_1
+# Command line: vivado.exe -log top_module.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_module.tcl -notrace
+# Log file: D:/HardwareLab/Reg_Instruction_Processor/Reg_Instruction_Processor.runs/impl_1/top_module.vdi
+# Journal file: D:/HardwareLab/Reg_Instruction_Processor/Reg_Instruction_Processor.runs/impl_1\vivado.jou
+# Running On: MSaiSrinivas, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+source top_module.tcl -notrace

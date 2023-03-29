@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Thu Mar 30 01:44:21 2023
+# Process ID: 7688
+# Current directory: D:/HardwareLab/Reg_Instruction_Processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21768 D:\HardwareLab\Reg_Instruction_Processor\Reg_Instruction_Processor.xpr
+# Log file: D:/HardwareLab/Reg_Instruction_Processor/vivado.log
+# Journal file: D:/HardwareLab/Reg_Instruction_Processor\vivado.jou
+# Running On: MSaiSrinivas, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/HardwareLab/Reg_Instruction_Processor/Reg_Instruction_Processor.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
