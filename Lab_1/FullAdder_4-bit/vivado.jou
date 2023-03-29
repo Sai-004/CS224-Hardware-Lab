@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Thu Mar 30 02:00:35 2023
+# Process ID: 25540
+# Current directory: D:/HardwareLab/Lab_1/FullAdder_4-bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18592 D:\HardwareLab\Lab_1\FullAdder_4-bit\FullAdder_4-bit.xpr
+# Log file: D:/HardwareLab/Lab_1/FullAdder_4-bit/vivado.log
+# Journal file: D:/HardwareLab/Lab_1/FullAdder_4-bit\vivado.jou
+# Running On: MSaiSrinivas, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/HardwareLab/Lab_1/FullAdder_4-bit/FullAdder_4-bit.xpr
+update_compile_order -fileset sources_1
