@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HardwareLab/VDPU/VDPU/VDPU.srcs/sources_1/new/VDPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VDPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HardwareLab/VDPU/VDPU/VDPU.srcs/sim_1/new/TB_VDPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_VDPU
