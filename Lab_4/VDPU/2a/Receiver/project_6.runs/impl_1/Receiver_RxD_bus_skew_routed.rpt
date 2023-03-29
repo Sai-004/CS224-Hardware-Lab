@@ -1,0 +1,15 @@
+Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2.2 (win64) Build 3788238 Tue Feb 21 20:00:34 MST 2023
+| Date         : Tue Mar 28 14:55:50 2023
+| Host         : MSaiSrinivas running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file Receiver_RxD_bus_skew_routed.rpt -pb Receiver_RxD_bus_skew_routed.pb -rpx Receiver_RxD_bus_skew_routed.rpx
+| Design       : Receiver_RxD
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

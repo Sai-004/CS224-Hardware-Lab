@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Tue Mar 28 14:54:24 2023
+# Process ID: 5888
+# Current directory: D:/HardwareLab/project_6/project_6/project_6.runs/impl_1
+# Command line: vivado.exe -log Receiver_RxD.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Receiver_RxD.tcl -notrace
+# Log file: D:/HardwareLab/project_6/project_6/project_6.runs/impl_1/Receiver_RxD.vdi
+# Journal file: D:/HardwareLab/project_6/project_6/project_6.runs/impl_1\vivado.jou
+# Running On: MSaiSrinivas, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+source Receiver_RxD.tcl -notrace
