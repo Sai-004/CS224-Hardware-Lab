@@ -1,0 +1,192 @@
+
+*** Running vivado
+    with args -log top_module.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source top_module.tcl -notrace
+
+
+
+****** Vivado v2022.2.2 (64-bit)
+  **** SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+  **** IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+    ** Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+
+source top_module.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 385.441 ; gain = 69.008
+Command: link_design -top top_module -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 941.059 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5895 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'top_module' is not ideal for floorplanning, since the cellview 'cache' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'hit_count[10]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[9]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[8]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[7]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[6]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[5]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[4]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[3]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[2]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[1]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[0]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[0]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[1]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[2]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[3]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[4]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[5]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[6]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[7]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[8]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[9]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_count[10]'. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/CS224-Hardware-Lab/Lab_5/cache/cache.srcs/constrs_1/new/contraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.077 . Memory (MB): peak = 1106.312 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 23 Warnings, 22 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:53 . Memory (MB): peak = 1106.312 ; gain = 716.145
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1106.312 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 161f6848b
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:24 . Memory (MB): peak = 1726.809 ; gain = 620.496
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter i1/mshr[2][31]_i_1 into driver instance i1/mshr[2][13]_i_2, which resulted in an inversion of 310 pins
+INFO: [Opt 31-1287] Pulled Inverter i1/mshr[3][31]_i_1 into driver instance i1/mshr[3][13]_i_2, which resulted in an inversion of 327 pins
+INFO: [Opt 31-1287] Pulled Inverter i1/mshr_counter[1][7]_i_1 into driver instance i1/mshr_counter[1][7]_i_2, which resulted in an inversion of 39 pins
+INFO: [Opt 31-1287] Pulled Inverter i1/mshr_counter[1][9]_i_1 into driver instance i1/mshr_buffer_status[1]_i_2, which resulted in an inversion of 116 pins
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1246e1dc0
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2074.305 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 4 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1246e1dc0
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2074.305 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 17296caa0
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 2074.305 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 17296caa0
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 2074.305 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 17296caa0
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 2074.305 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 17296caa0
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 2074.305 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               4  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.374 . Memory (MB): peak = 2074.305 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: c11efc71
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2074.305 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Power 33-232] No user defined clocks were found in the design! Power estimation will be inaccurate until this is corrected.
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...

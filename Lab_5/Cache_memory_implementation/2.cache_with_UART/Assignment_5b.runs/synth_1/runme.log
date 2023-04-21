@@ -1,0 +1,341 @@
+
+*** Running vivado
+    with args -log Top_Module.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Module.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source Top_Module.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/utils_1/imports/synth_1/Top_Module.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/utils_1/imports/synth_1/Top_Module.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Top_Module -part xc7a100ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100ti'
+INFO: [Device 21-403] Loading part xc7a100ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 27508
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1222.066 ; gain = 408.398
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top_Module' [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Top_Module.v:23]
+INFO: [Synth 8-6157] synthesizing module 'slow_clock' [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Top_Module.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'slow_clock' (0#1) [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Top_Module.v:55]
+INFO: [Synth 8-6157] synthesizing module 'Cache' [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Cache.v:3]
+WARNING: [Synth 8-290] fork/join block will be implemented as sequential block [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Cache.v:91]
+WARNING: [Synth 8-290] fork/join block will be implemented as sequential block [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Cache.v:221]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Cache.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'Cache' (0#1) [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Cache.v:3]
+INFO: [Synth 8-6157] synthesizing module 'uart' [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/UART.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/UART.v:84]
+INFO: [Synth 8-6155] done synthesizing module 'uart' (0#1) [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/UART.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Top_Module' (0#1) [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Top_Module.v:23]
+WARNING: [Synth 8-11357] Potential Runtime issue for 3D-RAM or RAM from Record/Structs for RAM  lru_reg with 13312 registers
+WARNING: [Synth 8-11357] Potential Runtime issue for 3D-RAM or RAM from Record/Structs for RAM  tag_reg with 18432 registers
+WARNING: [Synth 8-6014] Unused sequential element inx_reg was removed.  [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Cache.v:87]
+WARNING: [Synth 8-6014] Unused sequential element c_reg was removed.  [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Cache.v:89]
+WARNING: [Synth 8-6014] Unused sequential element d_reg was removed.  [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Cache.v:122]
+WARNING: [Synth 8-6014] Unused sequential element queue_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element index_reg was removed.  [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Cache.v:180]
+WARNING: [Synth 8-6014] Unused sequential element e_reg was removed.  [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/sources_1/new/Cache.v:214]
+WARNING: [Synth 8-4767] Trying to implement RAM 'check_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "check_reg" dissolved into registers
+WARNING: [Synth 8-3917] design Top_Module has port an[7] driven by constant 0
+WARNING: [Synth 8-3917] design Top_Module has port an[6] driven by constant 1
+WARNING: [Synth 8-3917] design Top_Module has port an[5] driven by constant 1
+WARNING: [Synth 8-3917] design Top_Module has port an[4] driven by constant 1
+WARNING: [Synth 8-3917] design Top_Module has port an[3] driven by constant 1
+WARNING: [Synth 8-3917] design Top_Module has port an[2] driven by constant 1
+WARNING: [Synth 8-3917] design Top_Module has port an[1] driven by constant 1
+WARNING: [Synth 8-3917] design Top_Module has port an[0] driven by constant 1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1692.355 ; gain = 878.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1692.355 ; gain = 878.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1692.355 ; gain = 878.688
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.782 . Memory (MB): peak = 1692.355 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/constrs_1/new/nexys_a7.xdc]
+Finished Parsing XDC File [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/constrs_1/new/nexys_a7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/constrs_1/new/nexys_a7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_Module_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_Module_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1824.465 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.228 . Memory (MB): peak = 1824.465 ; gain = 0.000
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+Cache__GB13Cache__GB15Cache__GB7Cache__GB11Cache__GB4Cache__GB10Cache__GB1Cache__GB9Cache__GB0Cache__GB5Cache__GB8Cache__GB2Cache__GB17Cache__GB6Cache__GB14Cache__GB3Cache__GB12Top_Module__GC0Cache__GB16Cache__GB18---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:39 ; elapsed = 00:00:47 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:41 ; elapsed = 00:00:49 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Mimic Skeleton from Reference
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Mimic Skeleton from Reference : Time (s): cpu = 00:00:42 ; elapsed = 00:00:51 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: yes
+
+   Stitch points used : changed
+
+
+2. Change Summary
+
+Report Incremental Modules: 
++-+----------------+------------+----------+----------+
+| |Changed Modules |Replication |Instances |Changed % |
++-+----------------+------------+----------+----------+
++-+----------------+------------+----------+----------+
+
+
+   Full Design Size (number of cells) : 396520
+   Resynthesis Design Size (number of cells) : 0
+   Resynth % : 0.0000,  Reuse % : 100.0000
+
+3. Reference Checkpoint Information
+
++--------------------------------------------------------------------------------------------------------------------------+
+| DCP Location:  | C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.srcs/utils_1/imports/synth_1/Top_Module.dcp |
++--------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------+------------------------------+
+|         DCP Information        |             Value            |
++--------------------------------+------------------------------+
+| Vivado Version                 |                    v2022.2 |
+| DCP State                      |                              |
++--------------------------------+------------------------------+
+
+
+
+Report RTL Partitions: 
++------+------------------------+------------+----------+
+|      |RTL Partition           |Replication |Instances |
++------+------------------------+------------+----------+
+|1     |Cache__GB0_#REUSE#      |           1|         0|
+|2     |Cache__GB1_#REUSE#      |           1|         0|
+|3     |Cache__GB2_#REUSE#      |           1|         0|
+|4     |Cache__GB3_#REUSE#      |           1|         0|
+|5     |Cache__GB4_#REUSE#      |           1|         0|
+|6     |Cache__GB5_#REUSE#      |           1|         0|
+|7     |Cache__GB6_#REUSE#      |           1|         0|
+|8     |Cache__GB7_#REUSE#      |           1|         0|
+|9     |Cache__GB8_#REUSE#      |           1|         0|
+|10    |Cache__GB9_#REUSE#      |           1|         0|
+|11    |Cache__GB10_#REUSE#     |           1|         0|
+|12    |Cache__GB11_#REUSE#     |           1|         0|
+|13    |Cache__GB12_#REUSE#     |           1|         0|
+|14    |Cache__GB13_#REUSE#     |           1|         0|
+|15    |Cache__GB14_#REUSE#     |           1|         0|
+|16    |Cache__GB15_#REUSE#     |           1|         0|
+|17    |Cache__GB16_#REUSE#     |           1|         0|
+|18    |Cache__GB17_#REUSE#     |           1|         0|
+|19    |Cache__GB18_#REUSE#     |           1|         0|
+|20    |Top_Module__GC0_#REUSE# |           1|         0|
++------+------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7077] IncrSyn: subsequent runs will still be incremental as the reference run was parallel and that data is reused
+WARNING: [Synth 8-3917] design Top_Module has port an[7] driven by constant 0
+WARNING: [Synth 8-3917] design Top_Module has port an[6] driven by constant 1
+WARNING: [Synth 8-3917] design Top_Module has port an[5] driven by constant 1
+WARNING: [Synth 8-3917] design Top_Module has port an[4] driven by constant 1
+WARNING: [Synth 8-3917] design Top_Module has port an[3] driven by constant 1
+WARNING: [Synth 8-3917] design Top_Module has port an[2] driven by constant 1
+WARNING: [Synth 8-3917] design Top_Module has port an[1] driven by constant 1
+WARNING: [Synth 8-3917] design Top_Module has port an[0] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:01:04 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Stitch Unchanged AreaOpt Partitions
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Stitch Unchanged AreaOpt Partitions : Time (s): cpu = 00:00:47 ; elapsed = 00:01:05 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:53 ; elapsed = 00:01:12 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:54 ; elapsed = 00:01:13 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7077] IncrSyn: subsequent runs will still be incremental as the reference run was parallel and that data is reused
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:54 ; elapsed = 00:01:13 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Stitch Unchanged Partitions
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Stitch Unchanged Partitions : Time (s): cpu = 00:00:55 ; elapsed = 00:01:13 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:25 ; elapsed = 00:01:47 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:25 ; elapsed = 00:01:48 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:27 ; elapsed = 00:01:50 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:27 ; elapsed = 00:01:50 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:31 ; elapsed = 00:01:55 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:32 ; elapsed = 00:01:55 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    89|
+|3     |LUT1   |     5|
+|4     |LUT2   |   328|
+|5     |LUT3   |  8794|
+|6     |LUT4   |  8440|
+|7     |LUT5   |  4436|
+|8     |LUT6   | 22245|
+|9     |MUXF7  |  3055|
+|10    |MUXF8  |  1322|
+|11    |FDRE   | 32145|
+|12    |IBUF   |     3|
+|13    |OBUF   |    25|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:32 ; elapsed = 00:01:55 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:06 ; elapsed = 00:01:44 . Memory (MB): peak = 1824.465 ; gain = 878.688
+Synthesis Optimization Complete : Time (s): cpu = 00:01:32 ; elapsed = 00:01:56 . Memory (MB): peak = 1824.465 ; gain = 1010.797
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.876 . Memory (MB): peak = 1824.465 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4466 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Top_Module' is not ideal for floorplanning, since the cellview 'Cache' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1824.465 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 45d8ab7a
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:49 ; elapsed = 00:02:17 . Memory (MB): peak = 1824.465 ; gain = 1405.805
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Adarsh/Downloads/Part2/Assignment_5b/Assignment_5b.runs/synth_1/Top_Module.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1824.465 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file Top_Module_utilization_synth.rpt -pb Top_Module_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 14 11:14:27 2023...

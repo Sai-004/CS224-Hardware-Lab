@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Mon Apr 17 18:38:37 2023
+# Process ID: 18248
+# Current directory: C:/Users/mssri/Downloads/Assignment_5b/Assignment_5b
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent872 C:\Users\mssri\Downloads\Assignment_5b\Assignment_5b\Assignment_5b.xpr
+# Log file: C:/Users/mssri/Downloads/Assignment_5b/Assignment_5b/vivado.log
+# Journal file: C:/Users/mssri/Downloads/Assignment_5b/Assignment_5b\vivado.jou
+# Running On: MSaiSrinivas, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mssri/Downloads/Assignment_5b/Assignment_5b/Assignment_5b.xpr
+update_compile_order -fileset sources_1

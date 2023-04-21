@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Thu Apr 13 22:08:41 2023
+# Process ID: 11064
+# Current directory: D:/CS224-Hardware-Lab/Lab_5/cache/cache.runs/synth_1
+# Command line: vivado.exe -log top_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_module.tcl
+# Log file: D:/CS224-Hardware-Lab/Lab_5/cache/cache.runs/synth_1/top_module.vds
+# Journal file: D:/CS224-Hardware-Lab/Lab_5/cache/cache.runs/synth_1\vivado.jou
+# Running On: MSaiSrinivas, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+source top_module.tcl -notrace
