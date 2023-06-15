@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dramtb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dramtb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="50,152 ps"></ZoomStartTime>
+      <ZoomEndTime time="50,166 ps"></ZoomEndTime>
+      <Cursor1Time time="50,163 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="121"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/dramtb/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/page_hit_ctr" type="array">
+      <obj_property name="ElementShortName">page_hit_ctr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">page_hit_ctr[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/c1_fetched_instr_ctr" type="array">
+      <obj_property name="ElementShortName">c1_fetched_instr_ctr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c1_fetched_instr_ctr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/c2_fetched_instr_ctr" type="array">
+      <obj_property name="ElementShortName">c2_fetched_instr_ctr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c2_fetched_instr_ctr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/c1_instr_ctr" type="array">
+      <obj_property name="ElementShortName">c1_instr_ctr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">c1_instr_ctr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/c2_instr_ctr" type="array">
+      <obj_property name="ElementShortName">c2_instr_ctr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">c2_instr_ctr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/request_M2BC" type="logic">
+      <obj_property name="ElementShortName">request_M2BC</obj_property>
+      <obj_property name="ObjectShortName">request_M2BC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/request_P2BC" type="logic">
+      <obj_property name="ElementShortName">request_P2BC</obj_property>
+      <obj_property name="ObjectShortName">request_P2BC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/grant_P2M" type="logic">
+      <obj_property name="ElementShortName">grant_P2M</obj_property>
+      <obj_property name="ObjectShortName">grant_P2M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/grant_M2P" type="logic">
+      <obj_property name="ElementShortName">grant_M2P</obj_property>
+      <obj_property name="ObjectShortName">grant_M2P</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/BASR_isfull" type="logic">
+      <obj_property name="ElementShortName">BASR_isfull</obj_property>
+      <obj_property name="ObjectShortName">BASR_isfull</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/channel" type="logic">
+      <obj_property name="ElementShortName">channel</obj_property>
+      <obj_property name="ObjectShortName">channel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/data_P2M" type="array">
+      <obj_property name="ElementShortName">data_P2M[41:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P2M[41:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/data_M2P" type="array">
+      <obj_property name="ElementShortName">data_M2P[41:0]</obj_property>
+      <obj_property name="ObjectShortName">data_M2P[41:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramtb/bottom" type="array">
+      <obj_property name="ElementShortName">bottom[8:0]</obj_property>
+      <obj_property name="ObjectShortName">bottom[8:0]</obj_property>
+   </wvobject>
+</wave_config>

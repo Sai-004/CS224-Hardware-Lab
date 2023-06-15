@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Tue May  2 17:18:41 2023
+# Process ID: 15656
+# Current directory: D:/CS224-Hardware-Lab/Lab_6/Part_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22828 D:\CS224-Hardware-Lab\Lab_6\Part_1\project_1_edit.xpr
+# Log file: D:/CS224-Hardware-Lab/Lab_6/Part_1/vivado.log
+# Journal file: D:/CS224-Hardware-Lab/Lab_6/Part_1\vivado.jou
+# Running On: MSaiSrinivas, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/CS224-Hardware-Lab/Lab_6/Part_1/project_1_edit.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top processor [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
