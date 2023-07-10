@@ -13,15 +13,15 @@ This repository contains walkthrough of the assignments and projects for the CS2
 
 ### Lab 1: 4-Bit Full Adder
 
-Design and implement a 4-bit full adder using a Hardware Description Language (HDL) such as VHDL or Verilog. The design should be synthesized and simulated using the selected HDL. Finally, download the bit file to the FPGA board and demonstrate the working of the design on the FPGA.
+- Design and implement a 4-bit full adder using a Hardware Description Language (HDL) such as VHDL or Verilog. The design should be synthesized and simulated using the selected HDL. Finally, download the bit file to the FPGA board and demonstrate the working of the design on the FPGA.
 
 ### Lab 2: Digital Clock
 
-Design and implement a digital clock using HDL (VHDL or Verilog). The clock should display time in HH:MM:SS format using a 7-segment display on the FPGA board. The design should support features like resetting the time and adjusting the time using selectable switches.
+- Design and implement a digital clock using HDL (VHDL or Verilog). The clock should display time in HH:MM:SS format using a 7-segment display on the FPGA board. The design should support features like resetting the time and adjusting the time using selectable switches.
 
 ### Lab 3: Register Instruction Processor
 
-Design and implement an RTL processor operations demonstrator. The instruction size is 6 bits, with a 3-bit operations field and 3 bits for register selection. The design should include a register file (RF) with eight 8-bit registers and an accumulator (ACC) register (8-bit). The processor should support operations such as addition, subtraction, move, scan, and print.
+- Design and implement an RTL processor operations demonstrator. The instruction size is 6 bits, with a 3-bit operations field and 3 bits for register selection. The design should include a register file (RF) with eight 8-bit registers and an accumulator (ACC) register (8-bit). The processor should support operations such as addition, subtraction, move, scan, and print.
 
 ### Lab 4: Vector Dot Product
 
